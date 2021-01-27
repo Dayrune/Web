@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <title>Exercice Avancé</title>
-    <style> table{
-        text-align: left;
-    }
-
+    <style>
     </style>
 </head>
 <body>
@@ -17,12 +17,12 @@
                 <b>Moteur de recherche</b> <br> <br>
                 <label for="motclef"> Mots clefs</label>
 
-                <input type="'text" name="motclef" id="motclef"> <br> <br>
+                <input class="form-control" type="'text" name="motclef" id="motclef"> <br> <br>
 
 
 
                 <label for="categorie"> Catégorie
-                    <SELECT name="categorie" size="3">
+                    <SELECT class="form-control" name="categorie" size="3">
                         <OPTION>Jouet
                         <OPTION>Location
                         <OPTION>Voiture
@@ -30,7 +30,7 @@
                 </label>
                 <br> <br>
                 <label for="dept"> Département
-                    <select id="dept">
+                    <select id="dept" class="form-control">
                         <option value="valeur1">Loiret</option>
                         <option value="valeur2" selected>Indre et loire</option>
                         <option value="valeur3">Corse</option>
@@ -41,7 +41,7 @@
                     <br>
 
 
-                    <input type="submit" value="Chercher">
+                    <input  class="btn btn-success btn-lg" type="submit" value="Chercher">
                 </label>
             </form>
         </td>
